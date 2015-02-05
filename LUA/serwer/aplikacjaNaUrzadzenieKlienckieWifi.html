@@ -1,0 +1,30 @@
+<body onload='onLoad()'> 
+<form action='kod' method='get'> 
+<input id='typ' name='typKodu' value='SAMSUNG'> 
+<input id='wartosc' name='wartoscKodu' value='0xE0E040BF'> 
+<button id='wyslij'>OK</button> 
+</form> 
+<p id='prz'></p> 
+<script> 
+function onLoad(){ 
+	var p=['SAMSUNG','NEC','RC5']; var b=['0','1','2','3','4','5','6','7','8','9','PWR']; 
+	var k=[['0xE0E08877','0xE0E020DF','0xE0E0A05F','0xE0E0609F','0xE0E010EF','0xE0E0906F','0xE0E050AF','0xE0E030CF','0xE0E0B04F','0xE0E0708F','0xE0E040BF'] 
+		,['A','S','C','D','F','G','H','J','K','L','RR'] 
+		,['8877','20DF','A05F','609F','10EF','906F','50AF','30CF','B04F','708F','40BF']];  
+	var s='height:50px;width:50px'; var prz=''; 
+	for (var j=0; j<3; j++){
+		prz+='<br><br>'+p[j]+'<br>'; 
+		for (var i=0; i<11; i++){ 
+			prz+='<button style='+s+' onclick=\" ' +
+			'document.getElementById(\'typ\').value=\''+p[j]+'\';  ' +
+			'document.getElementById(\'wartosc\').value=\''+k[j][i]+'\'; ' +
+			//document.getElementById(\'wyslij\').click();  ' +
+			'\">'+b[i]+'</button>'; 
+		} 
+	} 
+	document.getElementById('prz').innerHTML=prz; 
+} 
+</script> 
+</body>
+
+<!-- funkcja wrapujaca document.getElementById() ? -->
