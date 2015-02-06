@@ -8,7 +8,7 @@ String codeTypes[] = {"BLAD", "NEC", "SONY", "RC5", "RC6", "DISH", "SHARP", "PAN
 
 // ustawienia początkowe
 void setup() {
-  Serial.begin(9600); // inicjalizacja komunikacji UART z prędkością 9600 bodów
+  Serial.begin(38400); // inicjalizacja komunikacji UART z prędkością 38400 bodów
   irrecv.enableIRIn(); // włączenie odczytu danych z odbiornika IR
 }
 
