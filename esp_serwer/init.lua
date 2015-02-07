@@ -9,13 +9,13 @@ collectgarbage() -- zwalnianie pamieci
 server = net.createServer(net.TCP, 1) -- tworzenie obiektu serwera TCP
 server:listen(80, function(socket) -- definicja portu nasluchiwania serwera oraz funkcji, ktora ma byc wywolywana w przypadku nawiazania polaczenia
 	socket:on("receive", function(socket, receivedData) -- w przypadku odebrania danych
-          collectgarbage() -- zwolnij pamiec z niepotrzebnych danych
-          --print(node.heap())
+		collectgarbage() -- zwolnij pamiec z niepotrzebnych danych
+		 --print(node.heap())
 		if (receivedData ~= nil) then -- jesli dane odebrane nie sa pusta zmienna
 			if (string.find(receivedData, "GET /kod") ~= nil) then -- jesli dane zawieraja dany ciag znakow
 				wiadomoscDoAtmegi = string.sub(receivedData, string.find(receivedData, "GET /kod.- ")); -- wyrazenia regularne -- http://www.lua.org/pil/20.2.html
 				if (wiadomoscDoAtmegi ~= nil) then print(wiadomoscDoAtmegi) end -- jesli wiadomosc do atmegi nie jest pusta, wyslij wiadomosc do atmegi
-                    wiadomoscDoAtmegi = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych                 
+				wiadomoscDoAtmegi = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych				 
 			end
 			if (string.find(receivedData, "GET /routerAP") ~= nil) then -- jesli dane zawieraja dany ciag znakow
 				daneRoutera = string.sub(receivedData, string.find(receivedData, "GET /routerAP.- ")); -- wyrazenia regularne -- http://www.lua.org/pil/20.2.html
@@ -35,20 +35,20 @@ server:listen(80, function(socket) -- definicja portu nasluchiwania serwera oraz
 				socket:send("Connection:close\r\n\r\n")
 				socket:send(kodHtmlUstawienia); kodHtmlUstawienia = nil
 			else 
-     		    if (string.find(receivedData, "HTTP") ~= nil) then -- jesli dane zawieraja dany ciag znakow
-          			dofile("kodHtml.lua") -- generowanie kodu html
-          			socket:send("HTTP/1.1 200 OK\r\n") -- wysylanie wiadomosci http
-          			socket:send("Content-Length:" .. string.len(kodHtml) .. "\r\n")
-          			socket:send("Connection:close\r\n\r\n")
-          			socket:send(kodHtml); kodHtml = nil
-     			end
+	 			if (string.find(receivedData, "HTTP") ~= nil) then -- jesli dane zawieraja dany ciag znakow
+		  			dofile("kodHtml.lua") -- generowanie kodu html
+		  			socket:send("HTTP/1.1 200 OK\r\n") -- wysylanie wiadomosci http
+		  			socket:send("Content-Length:" .. string.len(kodHtml) .. "\r\n")
+		  			socket:send("Connection:close\r\n\r\n")
+		  			socket:send(kodHtml); kodHtml = nil
+	 			end
 			end
 		end
-          receivedData = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych 
+		receivedData = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych 
 	end)
 	socket:on("sent", function(socket) -- w przypadku wyslania wiadomosci przez Wi-Fi
-          socket:close() -- zamknij gniazdo polaczenia
-          socket = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych 
+		socket:close() -- zamknij gniazdo polaczenia
+		socket = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych 
 	end)
 end)
 
