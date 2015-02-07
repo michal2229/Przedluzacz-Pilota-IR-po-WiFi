@@ -35,13 +35,13 @@ server:listen(80, function(socket) -- definicja portu nasluchiwania serwera oraz
 				socket:send("Connection:close\r\n\r\n")
 				socket:send(kodHtmlUstawienia); kodHtmlUstawienia = nil
 			else 
-	 			if (string.find(receivedData, "HTTP") ~= nil) then -- jesli dane zawieraja dany ciag znakow
-		  			dofile("kodHtml.lua") -- generowanie kodu html
-		  			socket:send("HTTP/1.1 200 OK\r\n") -- wysylanie wiadomosci http
-		  			socket:send("Content-Length:" .. string.len(kodHtml) .. "\r\n")
-		  			socket:send("Connection:close\r\n\r\n")
-		  			socket:send(kodHtml); kodHtml = nil
-	 			end
+				if (string.find(receivedData, "HTTP") ~= nil) then -- jesli dane zawieraja dany ciag znakow
+					dofile("kodHtml.lua") -- generowanie kodu html
+					socket:send("HTTP/1.1 200 OK\r\n") -- wysylanie wiadomosci http
+					socket:send("Content-Length:" .. string.len(kodHtml) .. "\r\n")
+					socket:send("Connection:close\r\n\r\n")
+					socket:send(kodHtml); kodHtml = nil
+				end
 			end
 		end
 		receivedData = nil; collectgarbage() -- zwolnij pamiec z niepotrzebnych danych 
