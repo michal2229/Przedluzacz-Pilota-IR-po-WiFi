@@ -1,4 +1,4 @@
-uart.setup( 0, 38400, 8, 0, 1, 1 ) -- konfiguracja UART
+uart.setup( 0, 38400, 8, 0, 1, 1 ) -- konfiguracja UART - 38400 bodów, echo
 wifi.setmode(wifi.STATIONAP) -- ustawienie urzadzenia jako punkt dostepowy i jednoczesnie jako urzadzenie laczace sie z routerem
 cfg={}; -- zmienna konfiguracyjna punktu dostepowego urzadzenia
 cfg.ssid="ESP8266_" .. wifi.ap.getmac(); -- tworzenie identyfikatora sieci punktu dostepowego
