@@ -8,14 +8,14 @@ function sendMessage(wiadomosc) -- definicja funkcji wysolywanej przez mikrokont
 		socket = net.createConnection(net.TCP, 0) -- utworzenie gniazda polaczenia za pomoca TCP
 		socket:on("receive", function(socket, receivedData) -- w przypadku odebrania wiadomosci od serwera
 			socket:close(); socket = nil
-			collectgarbage()
+			collectgarbage() -- zwolnij pamiec z niepotrzebnych danych
 		end) 
 		socket:on("connection", function(socket)  -- w przypadku nawiazania polaczenia
 			socket:send(wiadomosc)  -- wyslij wiadomosc przez gniazdo
 			socket:close(); socket = nil -- zamknij gniazdo, zwolnij pamiec
-			collectgarbage()
+			collectgarbage() -- zwolnij pamiec z niepotrzebnych danych
 		end)
-		socket:connect(80, "192.168.4.1") -- polacz z urzadzeniem serwera Wi-Fi
+		socket:connect(80, "192.168.4.1") -- polacz z modulem serwera Wi-Fi
 	else -- w innym przypadku
 		print("brak polaczenia...") -- wyslij przez UART komunikat o braku polaczenia
 		wifi.sta.connect() -- probuj ponownie zawiazac polaczenie
