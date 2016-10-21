@@ -64,9 +64,9 @@ Development:
 
 ![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/16.png)
 
-![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/17.png)
-
 ![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/18.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/17.png)
 
 ![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/19.png)
 
