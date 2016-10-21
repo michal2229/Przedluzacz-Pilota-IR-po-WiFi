@@ -7,3 +7,15 @@ Zdarza się też, że jakość komunikacji w podczerwieni spada z czasem przez z
 
 Urządzenie ma na celu odbiór kodów podczerwieni z pilota, transmisję kodu po Wi-Fi na pewną odległość, a następnie wysłanie danych przez transmisję w podczerwieni do urządzenia RTV. Musi zatem składać się z dwóch części: odbiorczej podczerwieni - nadawczej Wi-Fi oraz odbiorczej Wi-Fi - nadawczej podczerwieni. Każda z tych części posiadać musi element komunikacyjny podczerwieni, element przetwarzający dane oraz element komunikacyjny Wi-Fi. 
 Elementem komunikacyjnym podczerwieni w przypadku części pierwszej urządzenia będzie odbiornik podczerwieni, w przypadku części drugiej będzie to nadajnik podczerwieni. Elementem przetwarzającym dane zostanie mikrokontroler, ponieważ nie są w tym zastosowaniu potrzebne duże moce obliczeniowe. Stanie się on jednostką centralną urządzenia. Elementem komunikacyjnym Wi-Fi w obu przypadkach będzie podobny moduł Wi-Fi obsługujący nadawanie informacji i jej odbiór. Połączenia w przypadku obu części urządzenia sprowadzą się do podłączenia wszystkich elementów komunikacyjnych w danej części do mikrokontrolera zarządzającego komunikacją pomiędzy elementem podczerwieni a modułem Wi-Fi. Dwie części urządzenia komunikować się będą poprzez Wi-Fi. Istniała też będzie możliwość połączenia urządzenia typu PC/telefon poprzez Wi-Fi do części urządzenia nadającej IR oraz połączenie urządzenia z routerem Wi-Fi, aby kontrolować nadawanie sygnałów podczerwieni z poziomu bezprzewodowej sieci lokalnej.
+
+Proof of concept device:
+
+![proof of concept device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2014-10-27-637%20%E2%80%94%20opisane.jpg)
+
+Arduino code for client and server IR uC:
+
+![code in arduino](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2014-10-27-635.jpg)
+
+Helper device (displays received IR codes on LCD):
+
+![helper device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2014-10-26-632.jpg)
