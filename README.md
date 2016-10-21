@@ -27,3 +27,49 @@ Result device:
 ![result device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2015-02-17-212.jpg)
 
 ![result device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2015-02-17-214.jpg)
+
+Development:
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/01.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/02.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/03.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/04.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/05.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/06.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/07.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/08.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/09.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/10.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/11.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/12.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/13.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/22.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/14.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/15.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/16.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/17.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/18.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/19.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/20.png)
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/21.png)
