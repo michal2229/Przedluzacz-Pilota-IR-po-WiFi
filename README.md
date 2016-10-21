@@ -19,3 +19,11 @@ Arduino code for client and server IR uC:
 Helper device (displays received IR codes on LCD):
 
 ![helper device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2014-10-26-632.jpg)
+
+Result device:
+
+![helper device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2015-02-17-211.jpg)
+
+![helper device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2015-02-17-212.jpg)
+
+![helper device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2015-02-17-215.jpg)
