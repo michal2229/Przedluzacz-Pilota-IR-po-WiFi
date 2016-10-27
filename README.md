@@ -7,7 +7,7 @@ The device consists of two cooperating parts in client-server architecture:
 1. client part that receives IR code from RTV remote (with IR receiver) and sends it trough WiFi (with ESP8266) to another part,
 1. server part that receives code trough WiFi (with ESP8266) and sends it trough IR (with IR LED + amplifier) to RTV device.
 
-Each part consists of IR element (LED or receiver with demodulation IC), AVR ATmega 328P uC programmed using Arduino libraries and an ESP8266 WiFi module running NodeMCU.
+Each part consists of IR element (LED or receiver with demodulation IC), AVR ATmega 328P uC programmed using Arduino libraries and an ESP8266 WiFi module running NodeMCU firmware.
 
 PC/smartphone can also be a client and connect to a server part. 
 
