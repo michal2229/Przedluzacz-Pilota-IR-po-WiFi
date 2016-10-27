@@ -21,12 +21,11 @@ ESP8266 module can act as an access point and a client at the same time, so ther
 
 ![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/21.png)
 
-
-### Proof of concept device (not ESP8266 yet, it is NRF24L012+):
+### [Proof of concept device](https://github.com/michal2229/Atmega-IR-2.4GHz-nRF24L01) (not ESP8266 yet, it is NRF24L012+):
 
 ![proof of concept device](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2014-10-27-637%20%E2%80%94%20opisane.jpg)
 
-### Arduino code for client and server IR uC of proof of concept device:
+### Arduino code for client and server IR uC of [proof of concept device](https://github.com/michal2229/Atmega-IR-2.4GHz-nRF24L01):
 
 ![code in arduino](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/2014-10-27-635.jpg)
 
