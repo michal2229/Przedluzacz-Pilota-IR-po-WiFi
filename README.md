@@ -15,7 +15,9 @@ Each part consists of IR element (LED or receiver with demodulation IC), AVR ATm
 
 PC/smartphone can also be a client and connect to a server part. 
 
-ESP8266 module can act as an access point and a client at the same time, so there is an option to connect the server part to router and control the device from PC/smartphone connected to the same LAN network - configurable in webapp.
+ESP8266 module can act as an access point and a client at the same time, so there is an option to connect the server part to router and control the device from PC/smartphone connected to the same LAN network - configurable in webapp. 
+
+To decode and encode IR codes I used IRremote library. 
 
 ![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/20.png)
 
