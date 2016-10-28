@@ -1,8 +1,8 @@
 # WiFi based RTV IR remote range extender
 
-![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/19.png)
-
 The aim for this project was to design and develop a device which can be used to extend range of IR communication between RTV remote and RTV device using WiFi. It was latter extended to provide the functionality of controlling RTV devices with a PC or smartphone connected trough WiFi to the device (a web application is presented on the screen). 
+
+![device development](https://raw.githubusercontent.com/michal2229/Przedluzacz-Pilota-IR-po-WiFi/master/dodatkowe%20materialy/zdjecia/19.png)
 
 The device consists of two cooperating parts in client-server architecture:
 
